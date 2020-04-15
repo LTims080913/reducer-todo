@@ -3,7 +3,7 @@
 
 export const initialState = [
     {
-        item: 'Learn about reducers',
+        item: '',
         completed: false,
         id: Date.now()
     }

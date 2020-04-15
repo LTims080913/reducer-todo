@@ -6,17 +6,20 @@ import styled from 'styled-components'
 
 const ImageBackground = styled.div `
 display: flex;
-flex-direction: column;
+flex-direction: column-reverse;
 justify-content: center;
 background-image: url(${Background});
 background-size: cover;
 height: 100vh;
 `
 const Title = styled.h1 `
-padding: 2%;
-margin: -15% 35% 5% 35%;
+padding: 1%;
+margin: -20% 9% 2% 73%;
+width: 17%;
 color: slategray;
-font-size: 2.5rem;
+font-size: 3.5rem;
+text-shadow: 2px 2px black;
+text-align: center;
 
 `
 
